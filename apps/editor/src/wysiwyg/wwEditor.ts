@@ -237,7 +237,7 @@ export default class WysiwygEditor extends EditorBase {
         : tr.replaceSelection(slice);
 
     this.view.dispatch(newTr);
-    this.focus();
+    // this.focus();
   }
 
   deleteSelection(start?: number, end?: number) {
